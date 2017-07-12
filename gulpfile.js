@@ -42,7 +42,7 @@ gulp.task('watch', function() {
   gulp.watch('*', ['livereload']);
   gulp.watch('html_src/**', ['include', 'livereload']);
   gulp.watch('css_src/**', ['sass', 'livereload']);
-  gulp.watch('js_src/**', ['tabmenu', 'livereload']);
+  gulp.watch('js_src/**', ['jsconcat', 'livereload']);
 });
 
 // header, footer, 공통영역 분리
@@ -63,7 +63,6 @@ gulp.task('sass', function(){
 });
 
 // concat 실행 - 여러 개의 파일을 하나의 파일로 합치는 기능
-gulp.task('jsconcat', ['tabmenu', 'gnbmenu']);
 
 gulp.task('tabmenu', function() {
   return gulp.src('js_src/tab_menu/*.js')
@@ -80,6 +79,8 @@ gulp.task('gnbmenu', function() {
       .pipe(sourcemaps.write())
       .pipe(gulp.dest('js/'));
 });
+
+gulp.task('jsconcat', ['tabmenu', 'gnbmenu']);
 
 gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);
 

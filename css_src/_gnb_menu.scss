@@ -51,14 +51,15 @@
         color:#f27321;
       }
 
-      &:after{
-        content:"";
-        display:block;
-        width:0;
-        height:4px;
-        background:deepskyblue;
-        margin:10px auto 0;
-      }
+    }
+
+    &-border{
+      content:"";
+      display:block;
+      width:0;
+      height:4px;
+      background:deepskyblue;
+      margin:10px auto 0;
     }
 
   }
