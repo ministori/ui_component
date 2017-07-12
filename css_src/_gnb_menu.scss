@@ -4,7 +4,14 @@
 .menu{
 
   &-wrap{
-    border-top:50px solid #333;
+    /*
+      border-top:50px solid #333;
+      border-bottom:50px solid #bbb;
+    */
+    border:{
+      top:50px solid #333;
+      bottom:50px solid #bbb;
+    }
     // 글꼴이름이 한글, 공백이 있을 때 => 따옴표
     font-family:"Noto Sans CJK KR", sans-serif;
 
@@ -31,6 +38,27 @@
 
     &-item{
       float:left;
+    }
+
+    &-link{
+      display:block;
+      color:#666;
+      font-size:17px;
+      padding:33px 27px 0;
+      height:47px;
+
+      &:hover{
+        color:#f27321;
+      }
+
+      &:after{
+        content:"";
+        display:block;
+        width:0;
+        height:4px;
+        background:deepskyblue;
+        margin:10px auto 0;
+      }
     }
 
   }
