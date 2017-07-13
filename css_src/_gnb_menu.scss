@@ -16,6 +16,8 @@
     font-family:"Noto Sans CJK KR", sans-serif;
 
     @extend %clearfix;
+
+    position:relative;
   }
 
   &-inner{
@@ -65,7 +67,24 @@
   }
 
   &-depth2{
-    display:none;
+
+    &-wrap{
+      position:absolute;
+      top:80px;
+      left:0;
+      width:100%;
+      padding:18px 0 20px 0;
+      background:#f4f4f4;
+    }
+
+    &-item{
+      float:left;
+
+      &.vertical{
+        float:none;
+      }
+    }
+
   }
 
   &-depth3{
