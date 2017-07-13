@@ -23,27 +23,27 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="_gnb_menu.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_gnb_menu.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css_src/_gnb_menu.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.420339">
-                  <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+                <state vertical-scroll-proportion="-12.230769">
+                  <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
                   <folding>
-                    <element signature="e#356#398#0" expanded="false" />
-                    <element signature="e#408#456#0" expanded="false" />
-                    <element signature="e#465#486#0" expanded="false" />
-                    <element signature="e#535#560#0" expanded="false" />
-                    <element signature="e#572#734#0" expanded="false" />
+                    <element signature="e#358#400#0" expanded="false" />
+                    <element signature="e#410#458#0" expanded="false" />
+                    <element signature="e#467#488#0" expanded="false" />
+                    <element signature="e#574#736#0" expanded="false" />
+                    <element signature="e#1027#1172#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_gnb_menu_jquery.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_gnb_menu_jquery.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js_src/gnb_menu/_gnb_menu_jquery.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.44805196">
+                  <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -56,13 +56,16 @@
           <file leaf-file-name="gnb_jquery.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html_src/gnb_jquery.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8067797">
-                  <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+                <state vertical-scroll-proportion="0.17288135">
+                  <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
                   <folding>
                     <element signature="n#h1#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
                     <element signature="n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#div#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                    <element signature="n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -107,17 +110,17 @@
         <option value="$PROJECT_DIR$/html_src/_include/_gnb.html" />
         <option value="$PROJECT_DIR$/html_src/tab_menu_css.html" />
         <option value="$PROJECT_DIR$/html_src/tab_menu_jquery.html" />
-        <option value="$PROJECT_DIR$/html_src/_include/_header_gnb_menu.html" />
         <option value="$PROJECT_DIR$/css_src/style_gnb_menu.scss" />
         <option value="$PROJECT_DIR$/css_src/_simple_style.scss" />
         <option value="$PROJECT_DIR$/css/style_gnb_menu.css" />
         <option value="$PROJECT_DIR$/js_src/gnb_menu/_gnb_menu_css.js" />
         <option value="$PROJECT_DIR$/js/gnb_menu.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/js_src/gnb_menu/_gnb_menu_jquery.js" />
         <option value="$PROJECT_DIR$/html/gnb_jquery.html" />
-        <option value="$PROJECT_DIR$/css_src/_gnb_menu.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/html_src/_include/_header_gnb_menu.html" />
         <option value="$PROJECT_DIR$/html_src/gnb_jquery.html" />
+        <option value="$PROJECT_DIR$/css_src/_gnb_menu.scss" />
+        <option value="$PROJECT_DIR$/js_src/gnb_menu/_gnb_menu_jquery.js" />
       </list>
     </option>
   </component>
@@ -300,6 +303,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="html_src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui_component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui_component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -416,8 +437,8 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23211446" sideWeight="0.51937985" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23211446" sideWeight="0.48062015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23211446" sideWeight="0.54108524" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23211446" sideWeight="0.45891473" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -446,8 +467,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23211446" sideWeight="0.51937985" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23211446" sideWeight="0.48062015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23211446" sideWeight="0.54108524" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23211446" sideWeight="0.45891473" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -479,12 +500,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="e#50#345#0" expanded="false" />
-            <element signature="e#356#398#0" expanded="false" />
-            <element signature="e#408#456#0" expanded="false" />
-            <element signature="e#465#486#0" expanded="false" />
-            <element signature="e#535#560#0" expanded="false" />
-            <element signature="e#572#734#0" expanded="false" />
+            <element signature="e#50#347#0" expanded="false" />
+            <element signature="e#358#400#0" expanded="false" />
+            <element signature="e#410#458#0" expanded="false" />
+            <element signature="e#467#488#0" expanded="false" />
+            <element signature="e#537#562#0" expanded="false" />
+            <element signature="e#574#736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/_include/_header_gnb_menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25932205">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_tab_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43220338">
@@ -793,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77922076">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/gnb_jquery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25254238">
@@ -808,38 +815,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js_src/gnb_menu/_gnb_menu_jquery.js">
+    <entry file="file://$PROJECT_DIR$/html_src/_include/_header_gnb_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1440678">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_gnb_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.420339">
-          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        <state vertical-scroll-proportion="-12.230769">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
           <folding>
-            <element signature="e#356#398#0" expanded="false" />
-            <element signature="e#408#456#0" expanded="false" />
-            <element signature="e#465#486#0" expanded="false" />
-            <element signature="e#535#560#0" expanded="false" />
-            <element signature="e#572#734#0" expanded="false" />
+            <element signature="e#358#400#0" expanded="false" />
+            <element signature="e#410#458#0" expanded="false" />
+            <element signature="e#467#488#0" expanded="false" />
+            <element signature="e#574#736#0" expanded="false" />
+            <element signature="e#1027#1172#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html_src/gnb_jquery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8067797">
-          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.17288135">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="n#h1#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_src/gnb_menu/_gnb_menu_jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44805196">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

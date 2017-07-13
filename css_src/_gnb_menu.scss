@@ -10,7 +10,7 @@
     */
     border:{
       top:50px solid #333;
-      bottom:50px solid #bbb;
+      //bottom:50px solid #bbb;
     }
     // 글꼴이름이 한글, 공백이 있을 때 => 따옴표
     font-family:"Noto Sans CJK KR", sans-serif;
@@ -67,29 +67,88 @@
   }
 
   &-depth2{
+    position:relative;
+    left:50%;
+    margin-left:-250px;
+    padding:18px 0 20px 0;
+
+    @extend %clearfix;
 
     &-wrap{
       position:absolute;
       top:80px;
       left:0;
       width:100%;
-      padding:18px 0 20px 0;
-      background:#f4f4f4;
+      background:#d0d0d0;
+      height:0;
+      overflow:hidden;
     }
 
     &-item{
       float:left;
+      margin-right:40px;
 
       &.vertical{
         float:none;
+        padding-bottom:10px;
+        margin-right:0;
+
+        @extend %clearfix;
+
+        &:last-child{
+          padding-bottom:0;
+        }
+
+        >.menu-depth2-link{
+          float:left;
+        }
+      }
+    }
+
+    &-link{
+      color:#666;
+      width:100px;
+
+      &:hover{
+        color:#f27321;
       }
     }
 
   }
 
   &-depth3{
-    display:none;
+    float:left;
+    position:relative;
+    padding-left:25px;
+    line-height:13px;
+
+    &:before{
+      content:"";
+      display:block;
+      width:1px;
+      height:15px;
+      background:#f27321;
+      position:absolute;
+      top:2px;
+      left:0;
+    }
+
+    &-link{
+      color:#666;
+      font-size:12px;
+    }
   }
 
 
+}
+
+// visual style
+.visual{
+  height:820px;
+  background:url(../images/visual_img1.jpg) no-repeat center top;
+  font-family: 'Montserrat', sans-serif;
+  font-size:80px;
+  color:#fff;
+  text-align:center;
+  padding-top:200px;
 }
