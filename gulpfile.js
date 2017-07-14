@@ -41,7 +41,6 @@ gulp.task('sass', function(){
 });
 
 // concat 실행 - 여러 개의 파일을 하나의 파일로 합치는 기능
-
 gulp.task('tabmenu', function() {
   return gulp.src('js_src/tab_menu/*.js')
       .pipe(sourcemaps.init())
@@ -58,7 +57,15 @@ gulp.task('gnbmenu', function() {
       .pipe(gulp.dest('js/'));
 });
 
-gulp.task('jsconcat', ['tabmenu', 'gnbmenu']);
+gulp.task('timingfunction', function() {
+  return gulp.src('js_src/timing_function/*.js')
+      .pipe(sourcemaps.init())
+      .pipe(concat('timing_function.js'))
+      .pipe(sourcemaps.write())
+      .pipe(gulp.dest('js/'));
+});
+
+gulp.task('jsconcat', ['tabmenu', 'gnbmenu', 'timingfunction']);
 
 gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);
 

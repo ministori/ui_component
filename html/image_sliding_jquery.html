@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>가속/감속 - Timing Function</title>
+  <title>이미지 슬라이딩</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style_timing_function.css" />
+  <link rel="stylesheet" href="../css/style_image_sliding.css" />
   <script src="../js/lib/jquery-3.2.1.min.js"></script>
-  <script src="../js/lib/jquery-ui.min.js"></script>
-  <script src="../js/lib/jquery.bez.js"></script>
-  <script src="../js/timing_function.js"></script>
+  <script src="../js/image_sliding.js"></script>
 </head>
 <body>
 <header class="header">
@@ -53,57 +51,40 @@
 
 <section>
 
-  <h1>시간 함수 - EASING 값 조절</h1>
-  
-  <div class="css-wrap">
+  <h1>이미지 슬라이딩/롤링</h1>
 
-    <h1 class="heading">CSS Ease 값 비교</h1>
+  <div class="rolling">
 
-    <div class="inner-wrap">
-      <div class="box box1">box1</div>
+    <div class="view">
+
+      <img src="../images/roll_01.jpg" class="view-image" />
+      <img src="../images/roll_02.jpg" class="view-image" />
+      <img src="../images/roll_03.jpg" class="view-image" />
+
     </div>
 
-    <div class="inner-wrap">
-      <div class="box box2">box2</div>
+    <div class="arrow-wrap">
+
+      <button type="button" class="arrow left">left</button>
+      <button type="button" class="arrow right">right</button>
+
     </div>
 
-    <div class="inner-wrap">
-      <div class="box box3">box3</div>
+    <div class="control-wrap">
+
+      <ul class="paging">
+        <!--<li class="paging-item"><a href="#" class="paging-link">1</a></li>-->
+        <!--<li class="paging-item"><a href="#" class="paging-link">2</a></li>-->
+        <!--<li class="paging-item"><a href="#" class="paging-link">3</a></li>-->
+      </ul>
+
+      <div class="play-wrap">
+        <button type="button" class="btn-control pause">Pause</button>
+      </div>
+
     </div>
 
-    <div class="inner-wrap">
-      <div class="box box4">box4</div>
-    </div>
 
-    <div class="inner-wrap">
-      <div class="box box5">box5</div>
-    </div>
-
-  </div>
-
-  <div class="js-wrap">
-
-    <h1 class="heading">JS Ease 값 비교</h1>
-
-    <div class="inner-wrap">
-      <div class="box box1">box1</div>
-    </div>
-
-    <div class="inner-wrap">
-      <div class="box box2">box2</div>
-    </div>
-
-    <div class="inner-wrap">
-      <div class="box box3">box3</div>
-    </div>
-
-    <div class="inner-wrap">
-      <div class="box box4">box4</div>
-    </div>
-
-    <div class="inner-wrap">
-      <div class="box box5">box5</div>
-    </div>
 
   </div>
 
