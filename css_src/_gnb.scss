@@ -42,3 +42,20 @@
   }
 
 }
+
+.util{
+
+  padding:10px 0;
+  background:#333;
+  border-bottom:1px solid red;
+
+  &-menu{
+    width:600px;
+    margin:0 auto;
+    text-align:right;
+  }
+
+  &-link{
+    color:#fff;
+  }
+}
