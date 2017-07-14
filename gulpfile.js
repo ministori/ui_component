@@ -65,7 +65,15 @@ gulp.task('timingfunction', function() {
       .pipe(gulp.dest('js/'));
 });
 
-gulp.task('jsconcat', ['tabmenu', 'gnbmenu', 'timingfunction']);
+gulp.task('imagesliding', function() {
+  return gulp.src('js_src/image_sliding/*.js')
+      .pipe(sourcemaps.init())
+      .pipe(concat('image_sliding.js'))
+      .pipe(sourcemaps.write())
+      .pipe(gulp.dest('js/'));
+});
+
+gulp.task('jsconcat', ['tabmenu', 'gnbmenu', 'timingfunction', 'imagesliding']);
 
 gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);
 

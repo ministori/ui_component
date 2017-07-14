@@ -87,6 +87,7 @@
   }
 
   &-content{
+    width:100%;
     // display 속성은 애니메이션 적용 안됨
     visibility: hidden;
     opacity:0;
