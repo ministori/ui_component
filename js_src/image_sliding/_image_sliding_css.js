@@ -22,22 +22,46 @@ $(function(){
       nextIndex = 0;
     }
 
-    $('.css-sliding-view-image').eq(currentIndex-1).removeClass('prev').addClass('next');
-    $('.css-sliding-view-image').eq(currentIndex).removeClass('current').addClass('prev');
-    $('.css-sliding-view-image').eq(nextIndex).removeClass('next').addClass('current');
+    $('.css-sliding-view-image').eq(currentIndex-1).removeClass('prev ani').addClass('next');
+    $('.css-sliding-view-image').eq(currentIndex).removeClass('current ani').addClass('prev ani');
+    $('.css-sliding-view-image').eq(nextIndex).removeClass('next').addClass('current ani');
 
     currentIndex = nextIndex;
     nextIndex++;
   }
 
+  function moveRight(){
+    if(nextIndex >= $('.css-sliding-view-image').length){
+      nextIndex = 0;
+    }
+
+    $('.css-sliding-view-image').eq(currentIndex-1).removeClass('prev ani').addClass('next');
+    $('.css-sliding-view-image').eq(currentIndex).removeClass('current ani').addClass('prev ani');
+    $('.css-sliding-view-image').eq(nextIndex).removeClass('next').addClass('current ani');
+
+    currentIndex = nextIndex;
+    nextIndex--;
+  }
+
   // 실행부
   init();
 
-  $('.css-sliding-arrow.right').on('click', function(){
+  var activeClick = function(){
     nextIndex = currentIndex + 1;
-    if( !$('.css-sliding-view-image').is(':animated') ){
-      moveLeft();
-    }
+    moveLeft();
+    setTimeout(function(){
+      // 재귀함수
+      $('.css-sliding-arrow.right').one('click', activeClick);
+    }, 1000);
+  };
+
+
+  $('.css-sliding-arrow.right').one('click', function(){
+    activeClick('left');
+  });
+
+  $('.css-sliding-arrow.left').one('click', function(){
+    activeClick('right');
   });
 
 });

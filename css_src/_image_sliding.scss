@@ -105,6 +105,10 @@
       transform:translate(100%,0);
     }
 
+    &.ani{
+      transition:transform 1s ease-out;
+    }
+
 
   }
 
