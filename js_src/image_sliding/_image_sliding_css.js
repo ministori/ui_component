@@ -57,7 +57,7 @@ $(function(){
 
     var dir = direction;
 
-    if( dir == 'left' ){
+    if( dir == 'right' ){
       nextIndex = currentIndex + 1;
       moveLeft();
     } else {
@@ -66,8 +66,15 @@ $(function(){
       moveRight();
     }
 
+    var $selector = $('.css-sliding-arrow.' + dir); // $('.css-sliding-arrow.right')
+
     setTimeout(function(){
       // 재귀함수
+      $selector.one('click', function(){
+        activeClick(dir);
+      });
+
+/*
       if(dir == 'left'){
         $('.css-sliding-arrow.right').one('click', function(){
           activeClick(dir);
@@ -77,17 +84,17 @@ $(function(){
           activeClick(dir);
         });
       }
-
+*/
     }, 1000);
 
   };
 
   $('.css-sliding-arrow.right').one('click', function(){
-    activeClick('left');
+    activeClick('right');
   });
 
   $('.css-sliding-arrow.left').one('click', function(){
-    activeClick('right');
+    activeClick('left');
   });
 
 });
