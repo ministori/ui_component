@@ -20,46 +20,18 @@
     <favorites_list name="ui_component" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5400593">
       <split-first>
         <leaf>
-          <file leaf-file-name="_image_sliding.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_image_sliding.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css_src/_image_sliding.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.6153846">
-                  <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.086440675">
+                  <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
                   <folding>
                     <element signature="e#33#1026#0" expanded="false" />
+                    <element signature="e#1059#2007#0" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_image_sliding_jquery.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js_src/image_sliding/_image_sliding_jquery.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#74#289#0" expanded="false" />
-                    <element signature="e#1780#2144#0" expanded="false" />
-                    <element signature="e#1918#1982#0" expanded="false" />
-                    <element signature="e#2189#2554#0" expanded="false" />
-                    <element signature="e#2617#2734#0" expanded="false" />
-                    <element signature="e#2796#2906#0" expanded="false" />
-                    <element signature="e#2963#4191#0" expanded="false" />
-                    <element signature="e#3079#4186#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="image_sliding_jquery.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/image_sliding_jquery.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.98644066">
-                  <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -71,8 +43,8 @@
           <file leaf-file-name="image_sliding_css.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html_src/image_sliding_css.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.05762712">
-                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.19322033">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -141,10 +113,10 @@
         <option value="$PROJECT_DIR$/html_src/_include/_gnb.html" />
         <option value="$USER_HOME$/Downloads/bxslider-4-master/bxslider-4-master/dist/jquery.bxslider.js" />
         <option value="$USER_HOME$/Downloads/bxslider-4-master/bxslider-4-master/dist/index.html" />
-        <option value="$PROJECT_DIR$/html_src/image_sliding_css.html" />
         <option value="$PROJECT_DIR$/html_src/image_sliding_jquery.html" />
-        <option value="$PROJECT_DIR$/css_src/_image_sliding.scss" />
         <option value="$PROJECT_DIR$/js_src/image_sliding/_image_sliding_jquery.js" />
+        <option value="$PROJECT_DIR$/html_src/image_sliding_css.html" />
+        <option value="$PROJECT_DIR$/css_src/_image_sliding.scss" />
       </list>
     </option>
   </component>
@@ -296,6 +268,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui_component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui_component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css_src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css_src/style_image_sliding.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24199288">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/tab_menu_css.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02881356">
@@ -767,14 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/image_sliding_css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05762712">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_src/image_sliding_jquery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1440678">
@@ -785,27 +755,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css_src/_image_sliding.scss">
+    <entry file="file://$PROJECT_DIR$/html/image_sliding_jquery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#1026#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/image_sliding_css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.98644066">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js_src/image_sliding/_image_sliding_jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.1866883">
           <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
           <folding>
             <element signature="e#74#289#0" expanded="false" />
@@ -820,11 +780,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/image_sliding_jquery.html">
+    <entry file="file://$PROJECT_DIR$/css_src/style_image_sliding.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98644066">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18149467">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/image_sliding_css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_src/image_sliding_css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19322033">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_src/_image_sliding.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.086440675">
+          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="e#33#1026#0" expanded="false" />
+            <element signature="e#1059#2007#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
