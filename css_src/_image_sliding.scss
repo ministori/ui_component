@@ -92,8 +92,20 @@
   &-view-image{
     display:block;
     position:absolute;
-    top:0;
-    left:0;
+
+    &.prev{
+      transform:translate(-100%,0);
+    }
+
+    &.current{
+      transform:translate(0,0);
+    }
+
+    &.next{
+      transform:translate(100%,0);
+    }
+
+
   }
 
   &-arrow-wrap{
