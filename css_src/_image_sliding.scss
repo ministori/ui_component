@@ -93,15 +93,15 @@
     display:block;
     position:absolute;
 
-    &.prev{
+    &.left{
       transform:translate(-100%,0);
     }
 
-    &.current{
+    &.center{
       transform:translate(0,0);
     }
 
-    &.next{
+    &.right{
       transform:translate(100%,0);
     }
 

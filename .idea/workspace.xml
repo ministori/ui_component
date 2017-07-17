@@ -20,14 +20,14 @@
     <favorites_list name="ui_component" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.23608904">
+    <splitter split-orientation="horizontal" split-proportion="0.27344993">
       <split-first>
         <leaf>
           <file leaf-file-name="_image_sliding.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css_src/_image_sliding.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6338983">
-                  <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.25932205">
+                  <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
                   <folding>
                     <element signature="e#33#1026#0" expanded="false" />
                   </folding>
@@ -39,10 +39,9 @@
             <entry file="file://$PROJECT_DIR$/js_src/image_sliding/_image_sliding_jquery.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+                  <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
                   <folding>
                     <element signature="e#74#289#0" expanded="false" />
-                    <element signature="e#762#1105#0" expanded="false" />
                     <element signature="e#1131#1241#0" expanded="false" />
                     <element signature="e#1270#1428#0" expanded="false" />
                     <element signature="e#1449#1699#0" expanded="false" />
@@ -65,8 +64,8 @@
           <file leaf-file-name="_image_sliding_css.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js_src/image_sliding/_image_sliding_css.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.53084415">
-                  <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.58603895">
+                  <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -841,10 +840,9 @@
     <entry file="file://$PROJECT_DIR$/js_src/image_sliding/_image_sliding_jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="e#74#289#0" expanded="false" />
-            <element signature="e#762#1105#0" expanded="false" />
             <element signature="e#1131#1241#0" expanded="false" />
             <element signature="e#1270#1428#0" expanded="false" />
             <element signature="e#1449#1699#0" expanded="false" />
@@ -861,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_image_sliding.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6338983">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.25932205">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
             <element signature="e#33#1026#0" expanded="false" />
           </folding>
@@ -871,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js_src/image_sliding/_image_sliding_css.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53084415">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.58603895">
+          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
           <folding />
         </state>
       </provider>
