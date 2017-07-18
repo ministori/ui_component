@@ -54,6 +54,9 @@ $(function(){
 
   function autoRolling(){
     timeID = setInterval(function(){
+      if( $('.css-sliding-btn-control').hasClass('play') ){
+        $('.css-sliding-btn-control').removeClass('play').addClass('pause').text('pause');
+      }
       nextIndex = currentIndex + 1;
       moveLeft();
     }, 3000);

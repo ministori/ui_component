@@ -69,6 +69,7 @@ $(function(){
 
   }
 
+  
   // 실행부
   init();
   autoRolling();
