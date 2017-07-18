@@ -122,8 +122,11 @@ $(function(){
   });
 
   $(document).on('click', '.paging-item', function(e){
+
     e.preventDefault();
+
     var indexNumber = $(this).index('.paging-item');
+
     if( currentIndex != indexNumber ){
 
       if( currentIndex == 0 ){
