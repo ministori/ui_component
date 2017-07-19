@@ -38,6 +38,36 @@ $(function(){
 
   }
 
+  function menuOpen( $depth1Link ){
+    /*
+     $(this).next().stop().animate({key : value},시간,콜백함수)
+
+     ** jQuery DOM을 단계별로 찾아갈 때,
+
+     : 첫번 째 인수의 value 부분에 $(this) 를 사용하면 처음 찾은 $(this)를 의미
+     : 콜백함수 부분에 $(this)를 사용하면 최종으로 찾은 DOM요소가 $(this)가 됨.
+     */
+    $depth1Link.next().stop().animate({
+      height : $depth1Link.next().data('height')
+    });
+
+    $depth1Link.data({'open' : 'true'}).addClass('up');
+  }
+
+  function menuClose( $depth1Link ){
+    $depth1Link.parent().siblings().children('.lnb-depth2').stop().animate({
+      height : 0
+    });
+    $depth1Link.parent().siblings().children('.lnb-depth1-link').data('open', 'false').removeClass('up');
+  }
+
+  function menuSelfClose( $depth1Link ){
+    $depth1Link.next().stop().animate({
+      height : 0
+    });
+    $depth1Link.data({'open' : 'false'}).removeClass('up');
+  }
+
   // 실행부
   init();
 
@@ -47,35 +77,14 @@ $(function(){
 
     if( $(this).data('open') == 'false' ){
 
-      /*
-       $(this).next().stop().animate({key : value},시간,콜백함수)
-
-       ** jQuery DOM을 단계별로 찾아갈 때,
-
-       : 첫번 째 인수의 value 부분에 $(this) 를 사용하면 처음 찾은 $(this)를 의미
-       : 콜백함수 부분에 $(this)를 사용하면 최종으로 찾은 DOM요소가 $(this)가 됨.
-       */
-      $(this).next().stop().animate({
-        height : $(this).next().data('height')
-      });
-
-      $(this).parent().siblings().children('.lnb-depth2').stop().animate({
-        height : 0
-      });
-
-      $(this).data({'open' : 'true'});
-      $(this).parent().siblings().children('.lnb-depth1-link').data('open', 'false');
+      menuOpen( $(this) );
+      menuClose( $(this) );
 
     } else {
 
-      $(this).next().stop().animate({
-        height : 0
-      });
-      $(this).data({'open' : 'false'});
+      menuSelfClose( $(this) );
 
     }
-
-
 
   });
 
