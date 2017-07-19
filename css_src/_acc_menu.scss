@@ -112,6 +112,7 @@
   &-depth2{
     //height:0;
     overflow:hidden;
+    transition:height .5s ease-out;
 
     &-item{
       border-bottom:1px solid #ddd;
